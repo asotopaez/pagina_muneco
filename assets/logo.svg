@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 70" role="img" aria-label="Cerrajería San Rafael">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0C040"/>
+      <stop offset="100%" stop-color="#B8960C"/>
+    </linearGradient>
+    <linearGradient id="goldGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5D060"/>
+      <stop offset="100%" stop-color="#B8960C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shield background -->
+  <path d="M8 4 L52 4 L52 38 Q52 58 30 66 Q8 58 8 38 Z"
+        fill="url(#goldGrad)" />
+  <!-- Shield inner border -->
+  <path d="M12 8 L48 8 L48 37 Q48 54 30 61 Q12 54 12 37 Z"
+        fill="none" stroke="#1A1A1A" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Key: bow (outer circle) -->
+  <circle cx="30" cy="21" r="9" fill="#1A1A1A"/>
+  <!-- Key: bow (inner hole) -->
+  <circle cx="30" cy="21" r="5.5" fill="url(#goldGrad2)"/>
+  <!-- Key: shaft -->
+  <rect x="28" y="30" width="4" height="20" fill="#1A1A1A" rx="1.5"/>
+  <!-- Key: bit 1 (top) -->
+  <rect x="32" y="38" width="6" height="3" fill="#1A1A1A" rx="1"/>
+  <!-- Key: bit 2 (bottom) -->
+  <rect x="32" y="44" width="4.5" height="3" fill="#1A1A1A" rx="1"/>
+
+  <!-- Company name: line 1 -->
+  <text
+    x="68" y="28"
+    font-family="'Cinzel', 'Georgia', 'Times New Roman', serif"
+    font-size="17"
+    font-weight="700"
+    fill="#D4AF37"
+    letter-spacing="3"
+  >CERRAJERÍA</text>
+
+  <!-- Company name: line 2 -->
+  <text
+    x="68" y="50"
+    font-family="'Cinzel', 'Georgia', 'Times New Roman', serif"
+    font-size="17"
+    font-weight="700"
+    fill="#FFFFFF"
+    letter-spacing="3"
+  >SAN RAFAEL</text>
+
+  <!-- Tagline -->
+  <text
+    x="68" y="64"
+    font-family="'Open Sans', 'Arial', sans-serif"
+    font-size="8"
+    font-weight="400"
+    fill="#D4AF37"
+    letter-spacing="2"
+    opacity="0.85"
+  >SERVICIO 24/7</text>
+</svg>

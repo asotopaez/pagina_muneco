@@ -1,0 +1,28 @@
+# Control de versiones
+.git
+.gitignore
+
+# Documentación (no necesaria en la imagen)
+README.md
+
+# Scripts de despliegue (no van dentro del contenedor)
+deploy.sh
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Variables de entorno locales
+.env
+.env.*

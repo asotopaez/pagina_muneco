@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="Cerrajería San Rafael">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0C040"/>
+      <stop offset="100%" stop-color="#B8960C"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield -->
+  <path d="M4 2 L28 2 L28 20 Q28 30 16 32 Q4 30 4 20 Z" fill="url(#g)"/>
+  <!-- Key bow -->
+  <circle cx="16" cy="13" r="5.5" fill="#1A1A1A"/>
+  <circle cx="16" cy="13" r="3.2" fill="#D4AF37"/>
+  <!-- Key shaft -->
+  <rect x="14.5" y="18.5" width="3" height="10" fill="#1A1A1A" rx="1"/>
+  <!-- Key bits -->
+  <rect x="17.5" y="22" width="3.5" height="2" fill="#1A1A1A" rx="0.7"/>
+  <rect x="17.5" y="25.5" width="2.5" height="2" fill="#1A1A1A" rx="0.7"/>
+</svg>
